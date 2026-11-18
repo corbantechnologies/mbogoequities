@@ -77,7 +77,7 @@ export default function Home() {
       <header className="header">
         <div className="container">
           <a href="#top" className="header-logo" aria-label="Mbogo Equities home">
-            <img src="/mainBlack.png" alt="Mbogo Equities" />
+            <img src="/logo-white.png" alt="Mbogo Equities" />
           </a>
           <nav className="nav">
             {nav.map((n) => (
@@ -252,6 +252,7 @@ export default function Home() {
 
         <section className="band">
           <div className="container">
+            <img className="band-logo" src="/logo-black.png" alt="Mbogo Equities" />
             <h2>Well-managed organizations build lasting value. We help you build yours.</h2>
           </div>
         </section>
@@ -261,7 +262,7 @@ export default function Home() {
         <div className="container">
           <div className="footer-top">
             <div>
-              <img src="/mainBlack.png" alt="Mbogo Equities" />
+              <img src="/logo-white.png" alt="Mbogo Equities" />
               <p>Professional management services for businesses, companies and organizations in Kenya.</p>
             </div>
             <nav className="footer-nav">
